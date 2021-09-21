@@ -1,21 +1,22 @@
 
 .marquee {
     overflow: hidden;
-    text-align: right;
     font-style: italic;
+    font-family: sans-serif;
     font-size: 40px;
     animation: marquee 10s linear infinite;
+    -webkit-transform: translateX(-110%);
 }
 
 .rainbow-text {
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     float: right;
 }
 
 @keyframes marquee {
-    0%   { transform: translatex(0%); }
+    0%   { transform: translatex(10%); }
     100% { transform: translatex(-100%); }
 }
-
