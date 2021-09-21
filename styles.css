@@ -1,0 +1,21 @@
+
+.marquee {
+    overflow: hidden;
+    text-align: right;
+    font-style: italic;
+    font-size: 40px;
+    animation: marquee 8s linear infinite;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    float: right;
+}
+
+@keyframes marquee {
+    0%   { transform: translatex(0%); }
+    100% { transform: translatex(-100%); }
+}
+
