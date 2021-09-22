@@ -5,7 +5,6 @@
     font-family: sans-serif;
     font-size: 40px;
     animation: marquee 12s linear infinite;
-    -webkit-transform: translateX(-110%);
 }
 
 .rainbow-text {
