@@ -1,18 +1,18 @@
 
-.marquee {
-    overflow: hidden;
-    font-style: italic;
-    font-family: sans-serif;
-    font-size: 40px;
-    animation: marquee 12s linear infinite;
-}
-
 .rainbow-text {
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     float: right;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.marquee {
+    overflow: hidden;
+    animation: marquee 15s linear infinite;
 }
 
 @keyframes marquee {
